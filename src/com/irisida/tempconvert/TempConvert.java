@@ -4,11 +4,19 @@ import java.util.Scanner;
 
 public class TempConvert {
     public static void main(String[] args) {
+
+        /*
+         * create a scanner to accept user input. Also using printf to avoid a
+         * newline at the end of the prompt. Remembering to close the scanner
+         * and avoid leaks.
+         */
         Scanner scanner = new java.util.Scanner(System.in);
         System.out.print("Enter a value in fahrenheit to convert to celsius >  ");
 
         double fval = scanner.nextFloat();
         scanner.close();
+
+        // call the conversion methods with our input
         System.out.printf("%.1f", getCelsius(fval));
     }
 
