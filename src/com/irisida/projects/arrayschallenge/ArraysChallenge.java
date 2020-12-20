@@ -20,8 +20,7 @@ public class ArraysChallenge {
 
         while (count < 3) {
             System.out.print("Add a number to the array: ");
-            int num = scanner.nextInt();
-            numbers[count] = num;
+            numbers[count] = scanner.nextInt();
             count++;
         }
         scanner.close();
