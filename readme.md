@@ -2,11 +2,11 @@
 
 A short repo of Java programming language sample programs. Applies to Java 11+
 
-### Mini projects
+### Course Mini projects
 - [01 - Change detection](/src/com/irisida/projects/changedetection/ChangeDetection.java) - Futile little string matching proect. Has no basis in reality and does not use secure or maked inputs. Only demonstrates some string methods.
 - [02 - Update password with retry](/src/com/irisida/projects/withretry/WithRetr.java) - Update to the first mini project above, adds in the concept of retries, max count of 3. If correct within 3 attempts, update mechanism proceeds, if not the programs terminates in error. The same fragilities and non-real world scenarions apply as in project 01.
 
-### Language and syntax examples
+### Part One - Language and syntax examples
 
 - [01 - Hello World](/src/com/irisida/basics/helloworld/HelloWorld.java) - The standard `Hello World` introductory program as is customary in any new language, or old language.
 - [02 - Temperature Conversion](/src/com/irisida/basics/tempconvert/TempConvert.java) - Another classic example is the convertor, here we have celsius and fahrenheit being converted by means of passing an input value to a method. Here we have a naive handling and not particularly resilient to erroneous input (more on that later).
@@ -19,3 +19,6 @@ A short repo of Java programming language sample programs. Applies to Java 11+
 - [09 - final values](/src/com/irisida/basics/finalvariables/FinalVariables.java) - Here we see the `final` keyword used in the variable declaration sequence that creates a restriction on reassignment effectively making the `variable` a constant.
 - [10 - The do-while loop](/src/com/irisida/basics/dowhile/DoWhile.java) - A very simple exercise demonstrating the `do while` loop construct. We see here that a do-while has an execution guarantee to always run at least once based on the loop evaluation beng at the tailof the loop rather that at the head.
 - [11 - loops with Stream](/src/com/irisida/basics/loopstream/LoopStream.java) - Introduction to streams and the syntax of these more advanced concepts to be covered in depth later on.
+
+### Part Two - Arrays
+- [12 -]
