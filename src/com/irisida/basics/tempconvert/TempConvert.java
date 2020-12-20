@@ -1,4 +1,4 @@
-package com.irisida.tempconvert;
+package com.irisida.basics.tempconvert;
 
 import java.util.Scanner;
 

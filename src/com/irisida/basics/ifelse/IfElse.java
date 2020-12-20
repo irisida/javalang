@@ -1,4 +1,4 @@
-package com.irisida.ifelse;
+package com.irisida.basics.ifelse;
 
 public class IfElse {
 

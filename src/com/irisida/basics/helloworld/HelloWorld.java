@@ -1,4 +1,4 @@
-package com.irisida.helloworld;
+package com.irisida.basics.helloworld;
 
 public class HelloWorld {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.irisida.whileloop;
+package com.irisida.basics.whileloop;
 
 public class WhileLoop {
     public static void main(String[] args) {

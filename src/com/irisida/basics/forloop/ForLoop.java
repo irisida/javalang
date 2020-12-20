@@ -1,4 +1,4 @@
-package com.irisida.forloop;
+package com.irisida.basics.forloop;
 
 public class ForLoop {
     public static void main(String[] args) {
