@@ -5,6 +5,7 @@ A short repo of Java programming language sample programs. Applies to Java 11+
 ### Course Mini projects
 - [01 - Change detection](/src/com/irisida/projects/changedetection/ChangeDetection.java) - Futile little string matching proect. Has no basis in reality and does not use secure or maked inputs. Only demonstrates some string methods.
 - [02 - Update password with retry](/src/com/irisida/projects/withretry/WithRetr.java) - Update to the first mini project above, adds in the concept of retries, max count of 3. If correct within 3 attempts, update mechanism proceeds, if not the programs terminates in error. The same fragilities and non-real world scenarions apply as in project 01.
+- [03 - Arrays challenge](/src/com/irisida/projects/arrayschallenge/ArraysChallenge.java) - The challenge was to define a fixed array size of integers, accept the integers as input from the console and total the output. Solution has two variants, one using a traditional iteration approach and adding the values to a total. The other uses the newer streams syntax and makes calls to `Arrays.streams(stream).sum()` to provide the total demonsrating an imperative and functional approach to the solution possibilities.
 
 ### Part One - Language and syntax examples
 
