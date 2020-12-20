@@ -31,12 +31,20 @@ public class ArraysChallenge {
         });
         System.out.println("total: " + Arrays.stream(numbers).sum());
 
-        // using a raditional non-streams approach to iterating and updating the total
+        // using a traditional non-streams approach to iterating and updating the total
         int total = 0;
         for (int idx = 0; idx < numbers.length; idx++) {
             System.out.printf("array position %d is %03d%n", idx, numbers[idx]);
             total += numbers[idx];
         }
         System.out.println("total: " + total);
+
+        // using a for each approach
+        int grandTotal = 0;
+        for (int num : numbers) {
+            System.out.printf("number is: %d%n", num);
+            grandTotal += num;
+        }
+        System.out.println("total: " + grandTotal);
     }
 }
