@@ -3,7 +3,8 @@
 A short repo of Java programming language sample programs. Applies to Java 11+
 
 ### Mini projects
-- [01 - change detection](/src/com/irisida/projects/changedetection/ChangeDetection.java) - Futile little string matching proect. Has no basis in reality and does not use secure or maked inputs. Only demonstrates some string methods.
+- [01 - Change detection](/src/com/irisida/projects/changedetection/ChangeDetection.java) - Futile little string matching proect. Has no basis in reality and does not use secure or maked inputs. Only demonstrates some string methods.
+- [02 - Update password with retry](/src/com/irisida/projects/withretry/WithRetr.java) - Update to the first mini project above, adds in the concept of retries, max count of 3. If correct within 3 attempts, update mechanism proceeds, if not the programs terminates in error. The same fragilities and non-real world scenarions apply as in project 01.
 
 ### Language and syntax examples
 
