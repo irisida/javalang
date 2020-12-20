@@ -34,7 +34,7 @@ public class FallingThrough {
                 // break;
             default:
                 System.out.println("unrecognised option was entered: " + input);
-                // break;
+                break;
         }
 
     }
