@@ -21,4 +21,6 @@ A short repo of Java programming language sample programs. Applies to Java 11+
 - [11 - loops with Stream](/src/com/irisida/basics/loopstream/LoopStream.java) - Introduction to streams and the syntax of these more advanced concepts to be covered in depth later on.
 
 ### Part Two - Arrays
-- [12 -]
+- [12 - Simple arrays](/src/com/irisida/arrays/simplearrays/SimpleArrays.java) - An introductory example to declaring arrays in Java.
+- [13 - String type arrays](/src/com/irisida/arrays/stringarrays/StringArrays.java) - Arrays using the string type, some iteration and array mutation with an intro to zero indexing as per almost all common programming languages.
+- [14 - Arrays and streams iteration](/src/com/irisida/arrays/streamarrays/StreamArrays.java) - Here we're using the streams syntax to iterate across an array using the `range` and `.forEach`.
