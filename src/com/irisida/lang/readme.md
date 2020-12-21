@@ -27,3 +27,5 @@ Java programming language sample programs. Applies to Java 11+. You can find the
 
 ### Part Three - Methods
 - [18 - Simple Class demo](/src/com/irisida/lang/methods/simpleclass/SimpleClass.java) - Quick and simple demonstration of defining a class typ and creating instances of the class.
+- [19 - Define classes in their own files](/src/com/irisida/lang/methods/classfiles/) - It's common practice to define classes in their own files and here we demo a simple class being declared within the same package as our main method meaning we can use it as if it wee defined in the main file itself.
+- [20 - Adding methods to user defined classes](/src/com/irisida/lang/methods/addsmethods/CreatedObject.java) - Here we're declaring a user-defined class and associating some methods to it. You can get the main method [here](/src/com/irisida/lang/methods/addsmethods/AddsMethods.java)
