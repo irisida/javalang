@@ -1,3 +1,5 @@
+![](/assets/javarepologo.png)
+
 # The Java programming language
 
 A short repo of Java programming language sample programs. Applies to Java 11+
