@@ -26,3 +26,4 @@ A short repo of Java programming language sample programs. Applies to Java 11+. 
 - [17 - More Multidimensional arrays](/src/com/irisida/arrays/moremultidim/MoreMultiDim.java) - reduced the code footprint and works with the `[][]` notation to achieve multidimensional handling in less code.
 
 ### Part Three - Methods
+- [18 - Simple Class demo](/src/com/irisida/methods/simpleclass/SimpleClass.java) - Quick and simple demonstration of defining a class typ and creating instances of the class.
