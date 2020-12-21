@@ -5,8 +5,8 @@
 Java programming language sample programs. Applies to Java 11+. You can find the associated mini projects and challenges related to the course [here](/src/com/irisida/lang/projects/readme.md).
 ### Part One - Language and syntax examples
 
-| Example | description |
-|---------|-------------|
+| Example      | description |
+|--------------|-------------|
 |[01 - Hello World](/src/com/irisida/lang/basics/helloworld/HelloWorld.java)|The standard `Hello World` introductory program as is customary in any new language, or old language.|
 |[02 - Temperature Conversion](/src/com/irisida/lang/basics/tempconvert/TempConvert.java) | Another classic example is the convertor, here we have celsius and fahrenheit being converted by means of passing an input value to a method. Here we have a naive handling and not particularly resilient to erroneous input (more on that later).|
 |[03 - The While loop](/src/com/irisida/lang/basics/whileloop/WhileLoop.java)| Very brief introduction to looping using a `while` construct.|
