@@ -6,6 +6,7 @@ A short repo of Java programming language sample programs. Applies to Java 11+
 - [01 - Change detection](/src/com/irisida/projects/changedetection/ChangeDetection.java) - Futile little string matching proect. Has no basis in reality and does not use secure or maked inputs. Only demonstrates some string methods.
 - [02 - Update password with retry](/src/com/irisida/projects/withretry/WithRetr.java) - Update to the first mini project above, adds in the concept of retries, max count of 3. If correct within 3 attempts, update mechanism proceeds, if not the programs terminates in error. The same fragilities and non-real world scenarions apply as in project 01.
 - [03 - Arrays challenge](/src/com/irisida/projects/arrayschallenge/ArraysChallenge.java) - The challenge was to define a fixed array size of integers, accept the integers as input from the console and total the output. Solution has two variants, one using a traditional iteration approach and adding the values to a total. The other uses the newer streams syntax and makes calls to `Arrays.streams(stream).sum()` to provide the total demonsrating an imperative and functional approach to the solution possibilities.
+- [04 - Multidimensional arrays challenge](/src/com/irisida/projects/multidimarraychallenge/MultiDimChallenge.java) - Fairly trivial challenge to create a multidimensinal array structure and traverse it calculation by line and by grand total.
 
 ### Part One - Language and syntax examples
 
@@ -26,4 +27,5 @@ A short repo of Java programming language sample programs. Applies to Java 11+
 - [13 - String type arrays](/src/com/irisida/arrays/stringarrays/StringArrays.java) - Arrays using the string type, some iteration and array mutation with an intro to zero indexing as per almost all common programming languages.
 - [14 - Arrays and streams iteration](/src/com/irisida/arrays/streamarrays/StreamArrays.java) - Here we're using the streams syntax to iterate across an array using the `range` and `.forEach`.
 - [15 - Using for each iteration with arrays](/src/com/irisida/arrays/foreach/ForEach.java) - A syntax demo of the for each loop. This is a common syntax and is fairly ubiquitous in java projects. The construct is clean and avoids some syntactic noise, the downside is that you have no access to the index of the loop. If the index is required you're better off sticking to a traditional `for loop`.
-- [16 - Multidimensional arrays](/src/com/irisida/arrays/multidim/MultiDim.java) -
+- [16 - Multidimensional arrays](/src/com/irisida/arrays/multidim/MultiDim.java) - Basic demo of an Array of arrays. A multidimensional array. Demos that the arrays need not be exactly the same size, only the type is fixed.
+- [17 - More Multidimensional arrays](/src/com/irisida/arrays/moremultidim/MoreMultiDim.java) - reduced the code footprint and works with the `[][]` notation to achieve multidimensional handling in less code.
