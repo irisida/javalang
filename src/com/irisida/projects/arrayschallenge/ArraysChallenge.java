@@ -12,6 +12,7 @@ public class ArraysChallenge {
          * array. Then the array will be iterated and the total of the three numbers is
          * dislayed
          */
+        final String TOTAL_PROMPT = "Total: ";
 
         int[] numbers = new int[3];
         int count = 0;
@@ -29,7 +30,7 @@ public class ArraysChallenge {
         IntStream.range(0, numbers.length).forEach(i -> {
             System.out.printf("array position %d is %03d%n", i, numbers[i]);
         });
-        System.out.println("total: " + Arrays.stream(numbers).sum());
+        System.out.println(TOTAL_PROMPT + Arrays.stream(numbers).sum());
 
         // using a traditional non-streams approach to iterating and updating the total
         int total = 0;
@@ -37,7 +38,7 @@ public class ArraysChallenge {
             System.out.printf("array position %d is %03d%n", idx, numbers[idx]);
             total += numbers[idx];
         }
-        System.out.println("total: " + total);
+        System.out.println(TOTAL_PROMPT + total);
 
         // using a for each approach
         int grandTotal = 0;
@@ -45,6 +46,6 @@ public class ArraysChallenge {
             System.out.printf("number is: %d%n", num);
             grandTotal += num;
         }
-        System.out.println("total: " + grandTotal);
+        System.out.println(TOTAL_PROMPT + grandTotal);
     }
 }
