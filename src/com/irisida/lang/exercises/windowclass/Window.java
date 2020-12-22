@@ -57,4 +57,14 @@ public class Window {
         this.menuOptions = menuOptions;
     }
 
+    public String toString() {
+        if (maximised) {
+            return "Window is maximised. Height is: " + this.getCurrentHeight() + " and Width is: "
+                    + this.getCurrentWidth();
+        } else {
+            return "Window is Not maximised. defaults are applied. Height is: " + this.getCurrentHeight()
+                    + " and Width is: " + this.getCurrentWidth();
+        }
+
+    }
 }
