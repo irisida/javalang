@@ -1,4 +1,4 @@
-package com.irisida.lang.projects.multidimarraychallenge;
+package com.irisida.lang.exercises.multidimarraychallenge;
 
 public class MultiDimChallenge {
     public static void main(String[] args) {

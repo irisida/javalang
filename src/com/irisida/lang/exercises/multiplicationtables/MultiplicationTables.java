@@ -1,4 +1,4 @@
-package com.irisida.lang.projects.multiplicationtables;
+package com.irisida.lang.exercises.multiplicationtables;
 
 public class MultiplicationTables {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.irisida.lang.projects.menuclassesprojectupdated;
+package com.irisida.lang.exercises.menuclassesprojectupdated;
 
 public class Menu {
     String[] options;

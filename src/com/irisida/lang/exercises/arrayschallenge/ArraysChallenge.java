@@ -1,4 +1,4 @@
-package com.irisida.lang.projects.arrayschallenge;
+package com.irisida.lang.exercises.arrayschallenge;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class ArraysChallenge {
         /*
          * A program to accept exactly 3 numbers input from the CLI and added to an
          * array. Then the array will be iterated and the total of the three numbers is
-         * dislayed
+         * displayed
          */
         final String TOTAL_PROMPT = "Total: ";
 

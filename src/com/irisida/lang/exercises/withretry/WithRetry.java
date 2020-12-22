@@ -1,4 +1,4 @@
-package com.irisida.lang.projects.withretry;
+package com.irisida.lang.exercises.withretry;
 
 import java.util.Scanner;
 

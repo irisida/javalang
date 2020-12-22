@@ -2,7 +2,7 @@
 
 # The Java programming language
 
-Java programming language sample programs. Applies to Java 11+. You can find the associated mini projects and challenges related to the course [here](/src/com/irisida/lang/projects/readme.md).
+Java programming language sample programs. Applies to Java 11+. You can find the associated mini projects and challenges related to the course [here](/src/com/irisida/lang/exercises/readme.md).
 ### Part One - Language and syntax examples
 
 - [01 - Hello World](/src/com/irisida/lang/basics/helloworld/HelloWorld.java) - The standard `Hello World` introductory program as is customary in any new language, or old language.
@@ -30,3 +30,4 @@ Java programming language sample programs. Applies to Java 11+. You can find the
 - [19 - Define classes in their own files](/src/com/irisida/lang/methods/classfiles/) - It's common practice to define classes in their own files and here we demo a simple class being declared within the same package as our main method meaning we can use it as if it wee defined in the main file itself.
 - [20 - Adding methods to user defined classes](/src/com/irisida/lang/methods/addsmethods/CreatedObject.java) - Here we're declaring a user-defined class and associating some methods to it. You can get the main method [here](/src/com/irisida/lang/methods/addsmethods/AddsMethods.java)
 - [21 - Methods with parameters and returns](/src/com/irisida/lang/methods/calculator/Calculator.java) - Here we are demonstrating methods that take parameters and return values. We have a simple calculator class. Very primitive, the point is not to have have a detailed calculator class, it's to demonstrate methods that take params and return values. Polymorphic aspects not touched up as yet so it only works on simple int types. Therefore divide is complemented with a modulo method.
+- [22 - Getters, setters public and private](/src/com/irisida/lang/methods/getsetpublicprivate/Employee.java) - Here we are exploring the concept of a closed access to the attributes of a class. Making the underlying attributes accessible via methods where we `get` or `set` them is a more robust implementation as a user does not need to worry on the attribute names underneath, or of clashes and code complexities caused by accessing the attributes directly. The mian class can be found [here](/src/com/irisida/lang/methods/getsetpublicprivate/App.java).

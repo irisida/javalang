@@ -1,4 +1,4 @@
-package com.irisida.lang.projects.menuclassesprojectupdated;
+package com.irisida.lang.exercises.menuclassesproject;
 
 public class App {
     public static void main(String[] args) {
@@ -12,8 +12,6 @@ public class App {
         menu.options = menuOptions;
 
         // call the public method
-        String myMenu = menu.get();
-
-        System.out.println(myMenu);
+        menu.display();
     }
 }

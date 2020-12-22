@@ -1,4 +1,4 @@
-package com.irisida.lang.projects.changedetection;
+package com.irisida.lang.exercises.changedetection;
 
 import java.util.Scanner;
 
