@@ -2,7 +2,11 @@
 
 # The Java programming language
 
-Java programming language sample programs. Applies to Java 11+. You can find the associated mini projects and challenges related to the course [here](/src/com/irisida/lang/exercises/readme.md).
+Java programming language sample programs. Applies to Java 11+.
+
+[Course projects](src/com/irisida/lang/projects)
+
+[Other exercises and challenges related to the course](/src/com/irisida/lang/exercises/readme.md)
 ### Part One - Language and syntax examples
 
 - [01 - Hello World](/src/com/irisida/lang/basics/helloworld/HelloWorld.java) - The standard `Hello World` introductory program as is customary in any new language, or old language.
