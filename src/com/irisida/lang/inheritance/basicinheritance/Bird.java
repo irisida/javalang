@@ -11,6 +11,10 @@ public class Bird extends Animal {
         System.out.println("Bird - layEgg()");
     }
 
+    public void vocalise() {
+        System.out.println("Bird -> vocalise('whistle')");
+    }
+
     @Override
     public void eat() {
         System.out.println("Bird - eat()");
