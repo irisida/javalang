@@ -45,4 +45,4 @@ Where you create an attribute as Static it basically means that it is shared bet
 ### Part Five - Inheritance
 
 - [24 - Basic inheritance in Java](src/com/irisida/lang/inheritance/basicinheritance) - Here we're implmenting a superclass, Animal, and defining new subclasses which extend the functionality given.
-- [25 - Protected variables and package scope](src/com/irisida/lang/inheritance/useprotected/application/App.java) - The concept here is the main aspect of the demo. The classes are trivial fruits examples. Here we can see package level scope at work to control, set the id property and keep it inaccessible from outside the package
+- [25 - Protected variables and package scope](src/com/irisida/lang/inheritance/useprotected/application/App.java) - The concept here is the main aspect of the demo. The classes are trivial fruits examples. Here we can see package level scope at work to control, set the id property and keep it inaccessible from outside the package.
