@@ -44,4 +44,4 @@ Where you create an attribute as Static it basically means that it is shared bet
 
 ### Part Five - Inheritance
 
-- [24 - Basic inheritance in Java]()
+- [24 - Basic inheritance in Java](src/com/irisida/lang/inheritance/basicinheritance) - Here we're implmenting a superclass, Animal, and defining new subclasses which extend the functionality given.
