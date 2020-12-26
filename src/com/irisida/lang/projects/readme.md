@@ -6,3 +6,4 @@ Throughout the course there are some projects to build. These correspond to thos
 
 - [01 - Hangman](src/com/irisida/lang/projects/hangman) - Implements a small hangman game. The program is made from three files, the main class, a Hangman class and a RandomWord class. Implements the concepts of handling string input, handling input to char conversion, lookup, answer masking, state update after guesses and is gamified by limiting tries.
 - [02 - Bingo](src/com/irisida/lang/projects/bingo) - Implements a trivial bingo game, on a 4*4 grid. Winning scenarios: `full house`.
+- [03 - Rock, Paper, Scissors](src/com/irisida/lang/projects/rockpaperscissors) - Implements the classic game of Rock, paper, scissors!
