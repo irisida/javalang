@@ -9,7 +9,7 @@ Java programming language sample programs. Applies to Java 11+.
 - [Part three - Methods](/src/com/irisida/lang/part03)
 - [Part Four - What is Static?](/src/com/irisida/lang/part04)
 - [Part five - Inheritance](/src/com/irisida/lang/part05)
-- [Part Six - Gui intro & Swing](/src/com/irisida/lang/part06)
+- [Part Six - GUI intro & Swing](/src/com/irisida/lang/part06)
 
 ### Additional sections
 
