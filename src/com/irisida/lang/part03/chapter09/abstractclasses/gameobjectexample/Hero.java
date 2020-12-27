@@ -1,4 +1,4 @@
-package com.irisida.lang.part03.chapter09.abstractclasses;
+package com.irisida.lang.part03.chapter09.abstractclasses.gameobjectexample;
 
 public class Hero extends GameObject {
     String name;
