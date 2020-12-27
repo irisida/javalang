@@ -26,6 +26,10 @@ Java programming language sample programs. Applies to Java 11+.
     - [Chapter 8 - Inheritance](/src/com/irisida/lang/part03/chapter08)
     - [Chapter 9 - Abstract classes](/src/com/irisida/lang/part03/chapter09)
     - [Chapter 10 - Interfaces](/src/com/irisida/lang/part03/chapter10)
+    - [Knowledge check Mini-Projects](/src/com/irisida/lang/part03/chapter10/projects)
+        - [Using TimerTask abstract class](/src/com/irisida/lang/part03/chapter10/projects/timerproject)
+        - [Implementing Runnable interface with ScheduledExecutorService](/src/com/irisida/lang/part03/chapter10/projects/interfaceproject)
+        - [Combining both approaches](/src/com/irisida/lang/part03/chapter10/projects/combined)
 
 - [Part Seven - GUI intro & Swing](/src/com/irisida/lang/part07)
 
