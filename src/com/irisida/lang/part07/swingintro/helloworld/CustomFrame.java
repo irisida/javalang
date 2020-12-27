@@ -1,6 +1,5 @@
-package com.irisida.lang.part06.swingintro.layouts;
+package com.irisida.lang.part07.swingintro.helloworld;
 
-import java.awt.BorderLayout;
 import javax.swing.JFrame;
 
 public class CustomFrame extends JFrame {
@@ -12,12 +11,6 @@ public class CustomFrame extends JFrame {
 
     public CustomFrame(String windowTitle) {
         super(windowTitle);
-
-        setLayout(new BorderLayout());
-
-        add(new ToolBar(), BorderLayout.NORTH);
-        add(new CustomPanel(), BorderLayout.CENTER);
-
         setSize(600, 400);
         setDefaultCloseOperation(CustomFrame.EXIT_ON_CLOSE);
         setVisible(true);

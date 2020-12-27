@@ -1,4 +1,4 @@
-package com.irisida.lang.part06.swingintro.helloworld;
+package com.irisida.lang.part07.swingintro.helloworld;
 
 import javax.swing.SwingUtilities;
 

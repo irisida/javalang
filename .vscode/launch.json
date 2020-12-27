@@ -1,0 +1,294 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part06.abstractclasses.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysChallenge",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.exercises.arrayschallenge.ArraysChallenge",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChangeDetection",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.exercises.changedetection.ChangeDetection",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.exercises.menuclassesproject.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(1)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.exercises.menuclassesprojectupdated.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiDimChallenge",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.exercises.multidimarraychallenge.MultiDimChallenge",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiplicationTables",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.exercises.multiplicationtables.MultiplicationTables",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(2)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.exercises.windowclass.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch WithRetry",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.exercises.withretry.WithRetry",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoWhile",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.dowhile.DoWhile",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch FallingThrough",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.fallthrough.FallingThrough",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch FinalVariables",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.finalvariables.FinalVariables",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ForLoop",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.forloop.ForLoop",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.helloworld.HelloWorld",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfElse",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.ifelse.IfElse",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch LoopStream",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.loopstream.LoopStream",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringsEquals",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.stringsequals.StringsEquals",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SwitchStatement",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.switching.SwitchStatement",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch TempConvert",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.tempconvert.TempConvert",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch WhileLoop",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part01.basics.whileloop.WhileLoop",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Foreach",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part02.arrays.foreach.Foreach",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoreMultiDim",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part02.arrays.moremultidim.MoreMultiDim",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch MultiDim",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part02.arrays.multidim.MultiDim",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleArrays",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part02.arrays.simplearrays.SimpleArrays",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch StreamsArrays",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part02.arrays.streamsarrays.StreamsArrays",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringsArrays",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part02.arrays.stringarrays.StringsArrays",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddsMethods",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part03.methods.addsmethods.AddsMethods",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(3)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part03.methods.calculator.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClassFiles",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part03.methods.classfiles.ClassFiles",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(4)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part03.methods.getsetpublicprivate.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleClass",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part03.methods.simpleclass.SimpleClass",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(5)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part04.usingstatic.genids.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(6)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part05.inheritance.basicinheritance.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(7)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part05.inheritance.constructorchain.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(8)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part05.inheritance.useprotected.application.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(9)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part06.swingintro.helloworld.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(10)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part06.swingintro.layouts.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(11)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.projects.bingo.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(12)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.projects.hangman.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App(13)",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.projects.rockpaperscissors.application.App",
+            "projectName": "javalang_d1e0bff2"
+        }
+    ]
+}

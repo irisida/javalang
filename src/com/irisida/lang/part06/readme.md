@@ -1,6 +1,11 @@
 ![](/assets/javarepologo.png)
 
-# The Java programming language - Part Six - An intro to Swing
+# The Java programming language - Part Six - Abstract Classes & Interfaces
 
-- [6.01 - Swing Hello World](/src/com/irisida/lang/part06/swingintro/helloworld) - A simple Swing Jframe example of the classic Hello, World program.
-- [6.02 - Custom Frames, Panels and more OO with Swing](/src/com/irisida/lang/part06/swingintro/layouts/App.java) - Again a simple demo, here we extend the [JFrame](/src/com/irisida/lang/part06/swingintro/layouts/CustomFrame.java), [JPanel](/src/com/irisida/lang/part06/swingintro/layouts/CustomPanel.java) and [JToolBar](/src/com/irisida/lang/part06/swingintro/layouts/ToolBar.java) classes to create wrapper types.
+## Abstract classes
+
+- [6.01 - Abstract classes example](/src/com/irisida/lang/part06/abstractclasses/App.java) - Here we're using the game analogy yet again. Suppose we would like to have a an array of all the objects of a game included, the purpose would be to be able to iterate over all objects. Not all objects are of the same type. Enter Abstract classes. An abstract class has methods with no implementation as abstracts. Classes extending the abstract class should define and implement this method in the subclasses which are extending it. The benefit is also that we can using that class as a grouping class type and iterate over all objects too. Attention should be paid to what methods are part of an abstract class to avoid having to implement useless methods on objects and reducing clarity of the code overall. In our example we have demanded that each class extending our abstract class implements a describe method. [Hero](/src/com/irisida/lang/part06/abstractclasses/Hero.java), [Enemy](/src/com/irisida/lang/part06/abstractclasses/Enemy.java), [Ship](/src/com/irisida/lang/part06/abstractclasses/Ship.java)
+
+## Interfaces
+
+- [6.02 - Interfaces]() -
