@@ -8,7 +8,7 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
-            "mainClass": "com.irisida.lang.part06.abstractclasses.App",
+            "mainClass": "com.irisida.lang.part03.chapter09.abstractclasses.App",
             "projectName": "javalang_d1e0bff2"
         },
         {
@@ -259,35 +259,35 @@
             "type": "java",
             "name": "Launch App(9)",
             "request": "launch",
-            "mainClass": "com.irisida.lang.part06.swingintro.helloworld.App",
+            "mainClass": "com.irisida.lang.part03.chapter09.swingintro.helloworld.App",
             "projectName": "javalang_d1e0bff2"
         },
         {
             "type": "java",
             "name": "Launch App(10)",
             "request": "launch",
-            "mainClass": "com.irisida.lang.part06.swingintro.layouts.App",
+            "mainClass": "com.irisida.lang.part03.chapter09.swingintro.layouts.App",
             "projectName": "javalang_d1e0bff2"
         },
         {
             "type": "java",
             "name": "Launch App(11)",
             "request": "launch",
-            "mainClass": "com.irisida.lang.projects.bingo.App",
+            "mainClass": "com.irisida.lang.part02.projects.bingo.App",
             "projectName": "javalang_d1e0bff2"
         },
         {
             "type": "java",
             "name": "Launch App(12)",
             "request": "launch",
-            "mainClass": "com.irisida.lang.projects.hangman.App",
+            "mainClass": "com.irisida.lang.part02.projects.hangman.App",
             "projectName": "javalang_d1e0bff2"
         },
         {
             "type": "java",
             "name": "Launch App(13)",
             "request": "launch",
-            "mainClass": "com.irisida.lang.projects.rockpaperscissors.application.App",
+            "mainClass": "com.irisida.lang.part02.projects.rockpaperscissors.application.App",
             "projectName": "javalang_d1e0bff2"
         }
     ]

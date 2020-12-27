@@ -1,7 +1,0 @@
-![](/assets/javarepologo.png)
-
-# The Java programming language - Part Five - Inheritance
-
-- [5.01 - Basic inheritance in Java](/src/com/irisida/lang/part05/inheritance/basicinheritance) - Here we're implmenting a superclass, Animal, and defining new subclasses which extend the functionality given.
-- [5.02 - Protected variables and package scope](/src/com/irisida/lang/part05/inheritance/useprotected/application/App.java) - The concept here is the main aspect of the demo. The classes are trivial fruits examples. Here we can see package level scope at work to control, set the id property and keep it inaccessible from outside the package.
-- [5.03 - Constructor chaining with inheritance](/src/com/irisida/lang/part05/inheritance/constructorchain/App.java) - In this example we see three levels of inheritance at work. Each level has attributes and a `toString` method for that class. Each class has constructor chaining where the constructors are chained from the most empty to the most detailed and the app demos how a class that utilises chained constructors in a deep inheritance model. [Contractor](/src/com/irisida/lang/part05/inheritance/constructorchain/Contractor.java) is a child of [Employee](/src/com/irisida/lang/part05/inheritance/constructorchain/Employee.java) which is a child of [Person](/src/com/irisida/lang/part05/inheritance/constructorchain/Person.java).

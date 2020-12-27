@@ -1,9 +1,9 @@
 ![](/assets/javarepologo.png)
 
-# The Java programming language - Part Three - Methods
+# The Java programming language - Part Three
 
-- [3.01 - Simple Class demo](/src/com/irisida/lang/part03/methods/simpleclass/SimpleClass.java) - Quick and simple demonstration of defining a class typ and creating instances of the class.
-- [3.02 - Define classes in their own files](/src/com/irisida/lang/part03/methods/classfiles/) - It's common practice to define classes in their own files and here we demo a simple class being declared within the same package as our main method meaning we can use it as if it wee defined in the main file itself.
-- [3.03 - Adding methods to user defined classes](/src/com/irisida/lang/part03/methods/addsmethods/CreatedObject.java) - Here we're declaring a user-defined class and associating some methods to it. You can get the main method [here](/src/com/irisida/lang/part03/methods/addsmethods/AddsMethods.java)
-- [3.04 - Methods with parameters and returns](/src/com/irisida/lang/part03/methods/calculator/Calculator.java) - Here we are demonstrating methods that take parameters and return values. We have a simple calculator class. Very primitive, the point is not to have have a detailed calculator class, it's to demonstrate methods that take params and return values. Polymorphic aspects not touched up as yet so it only works on simple int types. Therefore divide is complemented with a modulo method.
-- [3.05 - Getters, setters public and private](/src/com/irisida/lang/part03/methods/getsetpublicprivate/Employee.java) - Here we are exploring the concept of a closed access to the attributes of a class. Making the underlying attributes accessible via methods where we `get` or `set` them is a more robust implementation as a user does not need to worry on the attribute names underneath, or of clashes and code complexities caused by accessing the attributes directly. The `main` class can be found [here](/src/com/irisida/lang/part03/methods/getsetpublicprivate/App.java).
+- [Chapter 6 - Methods](/src/com/irisida/lang/part03/chapter06)
+- [Chapter 7 - What is Static?](/src/com/irisida/lang/part03/chapter07)
+- [Chapter 8 - Inheritance](/src/com/irisida/lang/part03/chapter08)
+- [Chapter 9 - Abstract classes](/src/com/irisida/lang/part03/chapter09)
+- [Chapter 10 - Interfaces](/src/com/irisida/lang/part03/chapter10)
