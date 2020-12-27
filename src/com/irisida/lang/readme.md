@@ -30,6 +30,7 @@ Java programming language sample programs. Applies to Java 11+.
         - [Using TimerTask abstract class](/src/com/irisida/lang/part03/chapter10/projects/timerproject)
         - [Implementing Runnable interface with ScheduledExecutorService](/src/com/irisida/lang/part03/chapter10/projects/interfaceproject)
         - [Combining both approaches](/src/com/irisida/lang/part03/chapter10/projects/combined)
+        - [Egg timer project](/src/com/irisida/lang/part03/chapter10/projects/eggtimer)
 
 - [Part Seven - GUI intro & Swing](/src/com/irisida/lang/part07)
 
