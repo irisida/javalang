@@ -8,7 +8,7 @@ public class Completed implements Runnable {
         if (count == 60) {
             System.out.println("It's been 1 minute!");
         } else if (count % 60 == 0) {
-            System.out.printf("It's been %d minutes!%n", count / 60);
+            System.out.printf("It's been %d minutes!%n", count);
         }
         count++;
 

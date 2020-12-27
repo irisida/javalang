@@ -12,6 +12,6 @@ public class App {
         timer.scheduleAtFixedRate(new IntervalCounter(), 0L, 1000L);
 
         ScheduledExecutorService executor = Executors.newScheduledThreadPool(1);
-        executor.scheduleAtFixedRate(new Completed(), 0L, 1L, TimeUnit.SECONDS);
+        executor.scheduleAtFixedRate(new Completed(), 0L, 1L, TimeUnit.MINUTES);
     }
 }
