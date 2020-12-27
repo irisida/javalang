@@ -1,4 +1,4 @@
-package com.irisida.lang.part07.swingintro.layouts;
+package com.irisida.lang.part04.chapter12.buttonclicks.basecode;
 
 import java.awt.BorderLayout;
 import javax.swing.JFrame;

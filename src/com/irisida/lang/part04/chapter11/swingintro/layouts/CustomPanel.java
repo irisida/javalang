@@ -1,4 +1,4 @@
-package com.irisida.lang.part07.swingintro.layouts;
+package com.irisida.lang.part04.chapter11.swingintro.layouts;
 
 import javax.swing.JPanel;
 

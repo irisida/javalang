@@ -32,7 +32,10 @@ Java programming language sample programs. Applies to Java 11+.
         - [Combining both approaches](/src/com/irisida/lang/part03/chapter10/projects/combined)
         - [Egg timer project](/src/com/irisida/lang/part03/chapter10/projects/eggtimer)
 
-- [Part Seven - GUI intro & Swing](/src/com/irisida/lang/part07)
+#### Part Four
+- [GUI intro with Swing and a little AWT](/src/com/irisida/lang/part04)
+    - [Chapter 11 - An intro to Swing](/src/com/irisida/lang/part04/chapter11)
+    - [Chapter 12 - Swing & button clicks](/src/com/irisida/lang/part04/chapter12)
 
 ### Additional sections
 

@@ -1,4 +1,4 @@
-package com.irisida.lang.part07.swingintro.layouts;
+package com.irisida.lang.part04.chapter12.buttonclicks.basecode;
 
 import javax.swing.JButton;
 import javax.swing.JToolBar;
