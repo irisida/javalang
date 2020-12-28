@@ -9,6 +9,10 @@ public class CustomPanel extends JPanel {
 
     public CustomPanel() {
         super();
-        setBackground(Color.ORANGE);
+        setBackground(Color.WHITE);
+    }
+
+    public void changeBGColor(Color color) {
+        setBackground(color);
     }
 }

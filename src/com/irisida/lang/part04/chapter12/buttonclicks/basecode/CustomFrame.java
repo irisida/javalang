@@ -1,6 +1,8 @@
 package com.irisida.lang.part04.chapter12.buttonclicks.basecode;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
+
 import javax.swing.JFrame;
 
 public class CustomFrame extends JFrame {
@@ -13,10 +15,14 @@ public class CustomFrame extends JFrame {
     public CustomFrame(String windowTitle) {
         super(windowTitle);
 
+        final CustomPanel mainPanel = new CustomPanel();
+
+        mainPanel.changeBGColor(Color.RED);
+
         setLayout(new BorderLayout());
 
         add(new ToolBar(), BorderLayout.NORTH);
-        add(new CustomPanel(), BorderLayout.CENTER);
+        add(mainPanel, BorderLayout.CENTER);
 
         setSize(600, 400);
         setDefaultCloseOperation(CustomFrame.EXIT_ON_CLOSE);
