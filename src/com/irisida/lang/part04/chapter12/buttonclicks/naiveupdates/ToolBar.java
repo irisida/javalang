@@ -10,6 +10,7 @@ import javax.swing.JToolBar;
 class OrangeButtonListener implements ActionListener {
     private CustomPanel mainPanel;
 
+    // constructor takes a panel
     public OrangeButtonListener(CustomPanel mainPanel) {
         this.mainPanel = mainPanel;
     }
@@ -17,6 +18,7 @@ class OrangeButtonListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         System.out.println("Orange Button was clicked");
+        // use reference to our panel and call color change.
         mainPanel.changeBGColor(Color.ORANGE);
 
     }

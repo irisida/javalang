@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
+            "mainClass": "com.irisida.lang.part04.chapter12.buttonclicks.version2.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
             "mainClass": "com.irisida.lang.part04.chapter12.buttonclicks.naiveupdates.App",
             "projectName": "javalang_d1e0bff2"
         },
