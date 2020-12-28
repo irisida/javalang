@@ -37,6 +37,12 @@ Java programming language sample programs. Applies to Java 11+.
     - [Chapter 11 - An intro to Swing](/src/com/irisida/lang/part04/chapter11)
     - [Chapter 12 - Swing & button clicks](/src/com/irisida/lang/part04/chapter12)
 
+
+#### Part Five
+- [What are Inner classes?](/src/com/irisida/lang/part05)
+    - [Chapter 13 - Inner classes](/src/com/irisida/lang/part05/chapter13)
+
+
 ### Additional sections
 
 [Other exercises and challenges related to the course](/src/com/irisida/lang/exercises/readme.md)

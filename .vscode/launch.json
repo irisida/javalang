@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
+            "mainClass": "com.irisida.lang.part05.chapter13.innerclassexample.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part05.chapter13.hashcodethis.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
             "mainClass": "com.irisida.lang.part04.chapter12.buttonclicks.withinterfaces.App",
             "projectName": "javalang_d1e0bff2"
         },
