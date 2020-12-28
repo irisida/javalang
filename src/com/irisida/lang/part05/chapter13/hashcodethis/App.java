@@ -15,6 +15,8 @@ public class App {
         System.out.printf("The hex of the hashcode is: %h%n", fox.hashCode()); // show the hex of the hashcode.
 
         Fox f1 = new Fox(); // constructor has output
+        System.out.println("Console output: " + f1);
         Fox f2 = new Fox(); // constructor has output
+        System.out.println("Console output: " + f2);
     }
 }
