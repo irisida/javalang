@@ -16,12 +16,14 @@ public class CustomFrame extends JFrame {
         super(windowTitle);
 
         final CustomPanel mainPanel = new CustomPanel();
+        final ToolBar toolBar = new ToolBar();
+        toolBar.setColorChanger(mainPanel);
 
-        mainPanel.changeColor(Color.PINK);
+        mainPanel.changeColor(Color.WHITE);
 
         setLayout(new BorderLayout());
 
-        add(new ToolBar(mainPanel), BorderLayout.NORTH);
+        add(toolBar, BorderLayout.NORTH);
         add(mainPanel, BorderLayout.CENTER);
 
         setSize(600, 400);

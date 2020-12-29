@@ -13,34 +13,36 @@ import javax.swing.JToolBar;
  * small footprint of a single method called changeColor.
  */
 
-class ColorButtonListener implements ActionListener {
-    private ColorChangeListener colorChanger;
-    private Color color;
-
-    // constructor takes a panel and now a color too!
-    public ColorButtonListener(ColorChangeListener colorChanger, Color color) {
-        this.colorChanger = colorChanger;
-        this.color = color;
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        colorChanger.changeColor(this.color);
-
-    }
-}
-
 public class ToolBar extends JToolBar {
     private static final long serialVersionUID = 1L;
+    private ColorChangeListener colorChanger;
 
-    public ToolBar(ColorChangeListener colorChanger) {
+    public void setColorChanger(ColorChangeListener colorChanger) {
+        this.colorChanger = colorChanger;
+    }
+
+    public ToolBar() {
         final JButton orangeButton = new JButton("Orange");
         final JButton redButton = new JButton("Red");
 
-        orangeButton.addActionListener(new ColorButtonListener(colorChanger, Color.ORANGE));
-        redButton.addActionListener(new ColorButtonListener(colorChanger, Color.RED));
+        orangeButton.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                colorChanger.changeColor(Color.ORANGE);
+            }
+        });
+        redButton.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                colorChanger.changeColor(Color.RED);
+            }
+
+        });
 
         add(orangeButton);
         add(redButton);
     }
+
 }
