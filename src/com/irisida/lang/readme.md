@@ -46,6 +46,7 @@ Java programming language sample programs. Applies to Java 11+.
 #### Part Six
 - [Using Enumerations](/src/com/irisida/lang/part06)
     - [Chapter 15 - The Enum](/src/com/irisida/lang/part06/chapter15)
+    - [Knowledge check Mini-Project](/src/com/irisida/lang/part06/projects/rockpaperscissors)
 
 ### Additional sections
 
