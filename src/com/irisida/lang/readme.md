@@ -48,6 +48,11 @@ Java programming language sample programs. Applies to Java 11+.
     - [Chapter 15 - The Enum](/src/com/irisida/lang/part06/chapter15)
     - [Knowledge check Mini-Project](/src/com/irisida/lang/part06/projects/rockpaperscissors)
 
+
+#### Part Seven
+- [Exceptions in java](/src/com/irisida/lang/part07)
+    - [Chapter 16 - Introducing Exceptions in Java](/src/com/irisida/lang/part07/chapter16)
+
 ### Additional sections
 
 [Other exercises and challenges related to the course](/src/com/irisida/lang/exercises/readme.md)
