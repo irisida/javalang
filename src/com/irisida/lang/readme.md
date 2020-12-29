@@ -12,8 +12,8 @@ Java programming language sample programs. Applies to Java 11+.
 
 #### Part Two
 - [Introduction to Arrays, multidimensional arrays & streams](/src/com/irisida/lang/part02)
-    - [Chapter 4 - Simple arrays](/src/com/irisida/lang/part01/chapter04)
-    - [Chapter 5 - Multidimensional arrays](/src/com/irisida/lang/part01/chapter05)
+    - [Chapter 4 - Simple arrays](/src/com/irisida/lang/part02/chapter04)
+    - [Chapter 5 - Multidimensional arrays](/src/com/irisida/lang/part02/chapter05)
     - [Knowledge Check Mini-Projects](/src/com/irisida/lang/part02/projects)
         - [hangman](/src/com/irisida/lang/part02/projects/hangman)
         - [Numbers game](/src/com/irisida/lang/part02/projects/bingo)
