@@ -41,7 +41,11 @@ Java programming language sample programs. Applies to Java 11+.
 #### Part Five
 - [What are Inner classes?](/src/com/irisida/lang/part05)
     - [Chapter 13 - Inner classes](/src/com/irisida/lang/part05/chapter13)
+    - [Chapter 14 - Using Inner classes and Lambdas with a Swing app](src/com/irisida/lang/part05/chapter14)
 
+#### Part Six
+- [Using Enumerations](/src/com/irisida/lang/part06)
+    - [Chapter 15 - The Enum](/src/com/irisida/lang/part06/chapter15)
 
 ### Additional sections
 
