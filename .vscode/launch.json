@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
+            "mainClass": "com.irisida.lang.part06.projects.rockpaperscissors.application.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
             "mainClass": "com.irisida.lang.part06.chapter15.withswitch.App",
             "projectName": "javalang_d1e0bff2"
         },
