@@ -1,6 +1,5 @@
 package com.irisida.lang.part07.chapter17.multipleexceptions;
 
-import com.irisida.lang.part07.chapter17.multipleexceptions.exceptions.TemperatureOutOfRangeException;
 import com.irisida.lang.part07.chapter17.multipleexceptions.exceptions.TemperatureTooHighException;
 import com.irisida.lang.part07.chapter17.multipleexceptions.exceptions.TemperatureTooLowException;
 
