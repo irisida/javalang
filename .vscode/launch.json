@@ -8,6 +8,20 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
+            "mainClass": "com.irisida.lang.part07.chapter17.multipleexceptionsubclasspolymorphism.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part07.chapter17.multipleexceptions.App",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
             "mainClass": "com.irisida.lang.part07.chapter16.customexceptions.App",
             "projectName": "javalang_d1e0bff2"
         },
