@@ -10,5 +10,6 @@ public class App {
         // remove errors from the repo
         // String input = scanner.nextLine(); // therefore triggers a
         // NullPointerException
+
     }
 }

@@ -52,6 +52,8 @@ Java programming language sample programs. Applies to Java 11+.
 #### Part Seven
 - [Exceptions in java](/src/com/irisida/lang/part07)
     - [Chapter 16 - Introducing Exceptions in Java](/src/com/irisida/lang/part07/chapter16)
+    - [Chapter 17 - Deeper dive into exceptions and dealing with multiple exceptions.](/src/com/irisida/lang/part07/chapter17)
+    - [Chapter 18 - Exceptions in constructors and TryWithResources](/src/com/irisida/lang/part07/chapter18)
 
 ### Additional sections
 
