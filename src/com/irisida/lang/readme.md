@@ -55,6 +55,10 @@ Java programming language sample programs. Applies to Java 11+.
     - [Chapter 17 - Deeper dive into exceptions and dealing with multiple exceptions.](/src/com/irisida/lang/part07/chapter17)
     - [Chapter 18 - Exceptions in constructors and TryWithResources](/src/com/irisida/lang/part07/chapter18)
 
+#### Part Eight
+- [More on basic types](/src/com/irisida/lang/part08)
+    - []()
+
 ### Additional sections
 
 [Other exercises and challenges related to the course](/src/com/irisida/lang/exercises/readme.md)
