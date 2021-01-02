@@ -10,6 +10,10 @@ public class App {
         // remove errors from the repo
         // String input = scanner.nextLine(); // therefore triggers a
         // NullPointerException
+        scanner = new Scanner(System.in); // can be removed
+        String msg = scanner.nextLine(); // can be removed
+        scanner.close(); // can be removed
+        System.out.println("placeholder code to avoid linting errors on repo build: " + msg); // can be removed
 
     }
 }

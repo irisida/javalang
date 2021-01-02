@@ -57,7 +57,7 @@ Java programming language sample programs. Applies to Java 11+.
 
 #### Part Eight
 - [More on basic types](/src/com/irisida/lang/part08)
-    - []()
+    - [Chapter 19 - More on basic types](/src/com/irisida/lang/part07/chapter19)
 
 ### Additional sections
 
