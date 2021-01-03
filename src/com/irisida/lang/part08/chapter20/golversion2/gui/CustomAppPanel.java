@@ -1,6 +1,9 @@
-package com.irisida.lang.part08.chapter20.golversion2;
+package com.irisida.lang.part08.chapter20.golversion2.gui;
 
 import javax.swing.JPanel;
+
+import com.irisida.lang.part08.chapter20.golversion2.model.World;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -28,14 +31,28 @@ public class CustomAppPanel extends JPanel {
         int width = getWidth();
         int height = getHeight();
 
+        leftRightMargin = ((width % CELLSIZE) + CELLSIZE) / 2;
+        topBottomMargin = ((height % CELLSIZE) + CELLSIZE) / 2;
+
+        int numberOfCols = (width - 2 * leftRightMargin) / CELLSIZE;
+        int numberOfRows = (height - 2 * topBottomMargin) / CELLSIZE;
+        System.out.printf("rows: %d  cols: %d %n", numberOfRows, numberOfCols);
+
+        World gameWorld = new World(numberOfRows, numberOfCols);
+
         g2.setColor(BGCOLOR);
         g2.fillRect(0, 0, width, height);
 
         drawGrid(g2, width, height);
 
-        fillCell(g2, 2, 2, true);
-        fillCell(g2, 2, 2, false);
-        fillCell(g2, 3, 3, true);
+        gameWorld.setCell(2, 2, true);
+
+        for (int r = 0; r < numberOfRows; r++) {
+            for (int c = 0; c < numberOfCols; c++) {
+                fillCell(g2, r, c, gameWorld.getCell(r, c));
+            }
+        }
+
     }
 
     private void drawGrid(Graphics2D g2, int width, int height) {
