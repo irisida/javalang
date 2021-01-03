@@ -8,12 +8,11 @@ import java.awt.Graphics2D;
 public class CustomAppPanel extends JPanel {
     private static final long serialVersionUID = 1L;
 
-    private final static int CELLSIZE = 50;
+    private static final int CELLSIZE = 50;
 
-    private final static Color BGCOLOR = Color.BLACK;
-    private final static Color FGCOLOR = Color.GREEN;
-    private final static Color GRIDCOLOR = Color.GRAY;
-    private final static Color TESTCOLOR = Color.ORANGE;
+    private static final Color BGCOLOR = Color.BLACK;
+    private static final Color FGCOLOR = Color.GREEN;
+    private static final Color GRIDCOLOR = Color.GRAY;
 
     private int topBottomMargin;
     private int leftRightMargin;

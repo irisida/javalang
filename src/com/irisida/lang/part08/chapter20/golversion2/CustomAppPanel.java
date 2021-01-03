@@ -13,7 +13,6 @@ public class CustomAppPanel extends JPanel {
     private static final Color BGCOLOR = Color.BLACK;
     private static final Color FGCOLOR = Color.GREEN;
     private static final Color GRIDCOLOR = Color.GRAY;
-    private static final Color TESTCOLOR = Color.ORANGE;
 
     private int topBottomMargin;
     private int leftRightMargin;
