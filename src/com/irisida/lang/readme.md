@@ -56,8 +56,10 @@ Java programming language sample programs. Applies to Java 11+.
     - [Chapter 18 - Exceptions in constructors and TryWithResources](/src/com/irisida/lang/part07/chapter18)
 
 #### Part Eight
-- [More on basic types](/src/com/irisida/lang/part08)
-    - [Chapter 19 - More on basic types](/src/com/irisida/lang/part07/chapter19)
+- [Conway's game of life in Swing](/src/com/irisida/lang/part08)
+    - [Chapter 19 - Implementing Game of Life pt1](/src/com/irisida/lang/part08/chapter19/golversion1)
+    - [Chapter 20 - Game of Life pt2 - split architecture](/src/com/irisida/lang/part08/chapter20/golversion2)
+
 
 ### Additional sections
 
