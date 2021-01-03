@@ -1,4 +1,4 @@
-package com.irisida.lang.part08.chapter19.golversion1;
+package com.irisida.lang.part08.chapter20.golversion2;
 
 import javax.swing.JPanel;
 import java.awt.Color;
@@ -8,12 +8,12 @@ import java.awt.Graphics2D;
 public class CustomAppPanel extends JPanel {
     private static final long serialVersionUID = 1L;
 
-    private final static int CELLSIZE = 50;
+    private static final int CELLSIZE = 50;
 
-    private final static Color BGCOLOR = Color.BLACK;
-    private final static Color FGCOLOR = Color.GREEN;
-    private final static Color GRIDCOLOR = Color.GRAY;
-    private final static Color TESTCOLOR = Color.ORANGE;
+    private static final Color BGCOLOR = Color.BLACK;
+    private static final Color FGCOLOR = Color.GREEN;
+    private static final Color GRIDCOLOR = Color.GRAY;
+    private static final Color TESTCOLOR = Color.ORANGE;
 
     private int topBottomMargin;
     private int leftRightMargin;
@@ -28,13 +28,6 @@ public class CustomAppPanel extends JPanel {
 
         int width = getWidth();
         int height = getHeight();
-
-        /*
-         * add a single CELLSIZE to the mod calculation in the event we perform
-         * calculation and the division yields a zero remainder.
-         */
-        leftRightMargin = ((width % CELLSIZE) + CELLSIZE) / 2;
-        topBottomMargin = ((height % CELLSIZE) + CELLSIZE) / 2;
 
         g2.setColor(BGCOLOR);
         g2.fillRect(0, 0, width, height);

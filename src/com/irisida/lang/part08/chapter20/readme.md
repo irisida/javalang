@@ -1,7 +1,7 @@
 ![](/assets/javarepologo.png)
 
-# The Java programming language - Chapter 19
+# The Java programming language - Chapter 20
 
 implementing Conway's Game of Life
 
-- [8.19.1 - GOL version 1]() - Define the basics of a Swing app. Here we're creating the basic blocks of the game of life app, taking it all the way to demo that has the window, grid system and demo of a filled block.
+- [8.20.1 - Game of Life pt2 - Split architecture]() - Update the version 1 project to split the architecture between back & front ends.

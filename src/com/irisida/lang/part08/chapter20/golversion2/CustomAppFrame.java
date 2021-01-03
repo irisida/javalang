@@ -1,4 +1,4 @@
-package com.irisida.lang.part08.chapter19.golversion1;
+package com.irisida.lang.part08.chapter20.golversion2;
 
 import javax.swing.JFrame;
 
