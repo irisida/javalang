@@ -58,9 +58,7 @@ public class World {
 
         for (int r = 0; r < rows; r++) {
             for (int c = 0; c < columns; c++) {
-                System.out.println("(" + r + "," + c + ")");
                 count = getActiveNeighbourCells(r, c);
-                System.out.println("Count is: " + count);
 
                 /*
                  * if neighbouring cell count is less then two, or greater than 3
