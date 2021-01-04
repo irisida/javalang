@@ -1,13 +1,9 @@
 package com.irisida.lang.part08.chapter20.golversion2.model;
 
 public class World {
-    private int rows;
-    private int columns;
     private boolean[][] grid;
 
     public World(int rows, int columns) {
-        this.rows = rows;
-        this.columns = columns;
 
         grid = new boolean[rows][columns];
     }
