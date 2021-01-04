@@ -113,7 +113,6 @@ public class CustomAppPanel extends JPanel {
          * lines and one to draw the vertical lines. Note: the increment on the loop in
          * the
          */
-        // g2.setColor(GRIDCOLOR);
         g2.setColor(LINECOLOR);
 
         for (int x = leftRightMargin; x <= width - leftRightMargin; x += CELLSIZE) {
