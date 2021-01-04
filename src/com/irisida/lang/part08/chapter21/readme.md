@@ -4,4 +4,4 @@
 
 implementing Conway's Game of Life
 
-- [8.20.1 - Game of Life pt2 - Split architecture]() - Update the version 1 project to split the architecture between back & front ends. Implements the model which is a 2 dimensional boolean array.
+- [8.20.1 - Game of Life pt3 - complete the application]() - Update the version 2 project with the split architecture to complete the implementation of Conway's game of life.
