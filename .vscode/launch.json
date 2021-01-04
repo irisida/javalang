@@ -7,6 +7,14 @@
         {
             "type": "java",
             "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.irisida.lang.part09.chapter22.readlinebyline.App",
+            "cwd": "${workspaceFolder}/src/com/irisida/lang/part09/chapter22/readlinebyline",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
             "cwd": "${workspaceFolder}/src/com/irisida/lang/part09/chapter22/findfiles",
             "request": "launch",
             "mainClass": "com.irisida.lang.part09.chapter22.findfiles.App",
