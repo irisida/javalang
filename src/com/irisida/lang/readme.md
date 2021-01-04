@@ -59,6 +59,7 @@ Java programming language sample programs. Applies to Java 11+.
 - [Conway's game of life in Swing](/src/com/irisida/lang/part08)
     - [Chapter 19 - Implementing Game of Life pt1](/src/com/irisida/lang/part08/chapter19/golversion1)
     - [Chapter 20 - Game of Life pt2 - split architecture](/src/com/irisida/lang/part08/chapter20/golversion2)
+    - [Chapter 21 - Completed the Game of Life app](/src/com/irisida/lang/part08/chapter21/golversion3)
 
 
 ### Additional sections
