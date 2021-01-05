@@ -8,6 +8,14 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
+            "mainClass": "com.irisida.lang.part09.chapter23.usingtransient.App",
+            "cwd": "${workspaceFolder}/src/com/irisida/lang/part09/chapter23/usingtransient",
+            "projectName": "javalang_d1e0bff2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
             "mainClass": "com.irisida.lang.part09.chapter23.deserializingobjects.App",
             "cwd": "${workspaceFolder}/src/com/irisida/lang/part09/chapter23/deserializingobjects",
             "projectName": "javalang_d1e0bff2"
