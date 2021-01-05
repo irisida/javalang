@@ -6,4 +6,4 @@ Focusing on the reading from and writing to files in Java
 
 - [Chapter 22 - Reading from and Writing to files](/src/com/irisida/lang/part09/chapter22) - Adds a demo of object serialization.
 - [Chapter 23 - Serialization, deserialization and other file operations](/src/com/irisida/lang/part09/chapter23) - Builds on the previous demo where we have a scenario of object serialization being loaded and deserialized to a new object and output.
-- [Chapter 23 - using transient](/src/com/irisida/lang/part09/chapter23) - Using the `transient` keyword avoids serializing properties and here we have a demo of this. It's also worth noting the we don not serialize static variables or properties of an object.
+
