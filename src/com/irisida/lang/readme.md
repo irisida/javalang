@@ -66,6 +66,7 @@ Java programming language sample programs. Applies to Java 11+.
 - [Reading & writing files with Java](/src/com/irisida/lang/part09)
     - [Chapter 22 - Reading from and Writing to files](/src/com/irisida/lang/part09/chapter22)
     - [Chapter 23 - Serialization, deserialization and other file operations](/src/com/irisida/lang/part09/chapter23)
+    - [Chapter 24 - Writing reading & parsing binary files](/src/com/irisida/lang/part09/chapter24)
 
 ### Additional sections
 
