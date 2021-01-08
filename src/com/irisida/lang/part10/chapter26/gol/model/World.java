@@ -1,7 +1,9 @@
 package com.irisida.lang.part10.chapter26.gol.model;
 
+import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -144,6 +146,31 @@ public class World {
             System.err.println("IO error was encountered: " + selectedFile);
         }
 
+    }
+
+    public void load(File selectedFile) {
+        try (var dis = new DataInputStream(new FileInputStream(selectedFile))) {
+            int fileRows = dis.readInt();
+            int fileCols = dis.readInt();
+
+            for (int row = 0; row < fileRows; row++) {
+                for (int col = 0; col < fileCols; col++) {
+                    boolean status = dis.readBoolean();
+
+                    if (row >= rows || col >= columns) {
+                        // no room in the grid
+                        continue;
+                    }
+
+                    grid[row][col] = status;
+                }
+            }
+
+        } catch (FileNotFoundException e) {
+            System.err.println("file not found: " + selectedFile);
+        } catch (IOException e) {
+            System.err.println("IO error was encountered: " + selectedFile);
+        }
     }
 
 }

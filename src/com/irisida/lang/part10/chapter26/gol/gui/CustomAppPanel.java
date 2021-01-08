@@ -162,4 +162,9 @@ public class CustomAppPanel extends JPanel {
         gameWorld.save(selectedFile);
     }
 
+    public void load(File selectedFile) {
+        gameWorld.load(selectedFile);
+        repaint();
+    }
+
 }

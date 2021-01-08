@@ -2,6 +2,7 @@ package com.irisida.lang.part10.chapter26.gol.gui;
 
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
+import javax.swing.filechooser.FileNameExtensionFilter;
 
 import java.awt.BorderLayout;
 import java.awt.event.KeyAdapter;
@@ -15,7 +16,7 @@ public class CustomAppFrame extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private CustomAppPanel gamePanel = new CustomAppPanel();
-    private static final String DEFAULT_FILE = "gol.save";
+    private static final String DEFAULT_FILE = "state.gol";
 
     public CustomAppFrame() {
         this("untitled");
@@ -44,8 +45,19 @@ public class CustomAppFrame extends JFrame {
         setMenuBar(menuBar);
 
         JFileChooser fileChooser = new JFileChooser();
+        var filter = new FileNameExtensionFilter("Game Of Life (.gol)", "gol");
+        fileChooser.addChoosableFileFilter(filter);
+        fileChooser.setFileFilter(filter);
 
-        openItem.addActionListener(e -> System.out.println("OPEN"));
+        openItem.addActionListener(e -> {
+            int userOption = fileChooser.showOpenDialog(CustomAppFrame.this);
+
+            if (userOption == JFileChooser.APPROVE_OPTION) {
+                File selectedFile = fileChooser.getSelectedFile();
+                System.out.println(selectedFile);
+                gamePanel.load(selectedFile);
+            }
+        });
 
         saveItem.addActionListener(e -> {
             fileChooser.setSelectedFile(new File(DEFAULT_FILE));
