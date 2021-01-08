@@ -4,7 +4,6 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
@@ -130,7 +129,7 @@ public class World {
         return count;
     }
 
-    public void save(File selectedFile) {
+    public void save(File selectedFile) throws IOException {
         try (var dos = new DataOutputStream(new FileOutputStream(selectedFile))) {
             dos.writeInt(rows);
             dos.writeInt(columns);
@@ -140,15 +139,10 @@ public class World {
                     dos.writeBoolean(grid[row][col]);
                 }
             }
-        } catch (FileNotFoundException e) {
-            System.err.println("file not found: " + selectedFile);
-        } catch (IOException e) {
-            System.err.println("IO error was encountered: " + selectedFile);
         }
-
     }
 
-    public void load(File selectedFile) {
+    public void load(File selectedFile) throws IOException {
         try (var dis = new DataInputStream(new FileInputStream(selectedFile))) {
             int fileRows = dis.readInt();
             int fileCols = dis.readInt();
@@ -165,11 +159,6 @@ public class World {
                     grid[row][col] = status;
                 }
             }
-
-        } catch (FileNotFoundException e) {
-            System.err.println("file not found: " + selectedFile);
-        } catch (IOException e) {
-            System.err.println("IO error was encountered: " + selectedFile);
         }
     }
 

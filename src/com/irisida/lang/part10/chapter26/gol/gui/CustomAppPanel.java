@@ -1,9 +1,11 @@
 package com.irisida.lang.part10.chapter26.gol.gui;
 
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.File;
+import java.io.IOException;
 
 import com.irisida.lang.part10.chapter26.gol.model.World;
 
@@ -159,11 +161,20 @@ public class CustomAppPanel extends JPanel {
     }
 
     public void save(File selectedFile) {
-        gameWorld.save(selectedFile);
+
+        try {
+            gameWorld.save(selectedFile);
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(this, "Cannot save the file", "Error", JOptionPane.ERROR_MESSAGE);
+        }
     }
 
     public void load(File selectedFile) {
-        gameWorld.load(selectedFile);
+        try {
+            gameWorld.load(selectedFile);
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(this, "Cannot open the selected file", "Error", JOptionPane.ERROR_MESSAGE);
+        }
         repaint();
     }
 
