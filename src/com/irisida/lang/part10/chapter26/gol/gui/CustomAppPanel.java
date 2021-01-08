@@ -3,6 +3,7 @@ package com.irisida.lang.part10.chapter26.gol.gui;
 import javax.swing.JPanel;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.File;
 
 import com.irisida.lang.part10.chapter26.gol.model.World;
 
@@ -155,6 +156,10 @@ public class CustomAppPanel extends JPanel {
     public void next() {
         gameWorld.next();
         repaint();
+    }
+
+    public void save(File selectedFile) {
+        gameWorld.save(selectedFile);
     }
 
 }

@@ -1,5 +1,10 @@
 package com.irisida.lang.part10.chapter26.gol.model;
 
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -121,6 +126,24 @@ public class World {
             }
         }
         return count;
+    }
+
+    public void save(File selectedFile) {
+        try (var dos = new DataOutputStream(new FileOutputStream(selectedFile))) {
+            dos.writeInt(rows);
+            dos.writeInt(columns);
+
+            for (int row = 0; row < rows; row++) {
+                for (int col = 0; col < columns; col++) {
+                    dos.writeBoolean(grid[row][col]);
+                }
+            }
+        } catch (FileNotFoundException e) {
+            System.err.println("file not found: " + selectedFile);
+        } catch (IOException e) {
+            System.err.println("IO error was encountered: " + selectedFile);
+        }
+
     }
 
 }

@@ -4,10 +4,9 @@ import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 
 import java.awt.BorderLayout;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.io.File;
 import java.awt.MenuItem;
 import java.awt.Menu;
 import java.awt.MenuBar;
@@ -16,6 +15,7 @@ public class CustomAppFrame extends JFrame {
 
     private static final long serialVersionUID = 1L;
     private CustomAppPanel gamePanel = new CustomAppPanel();
+    private static final String DEFAULT_FILE = "gol.save";
 
     public CustomAppFrame() {
         this("untitled");
@@ -45,27 +45,17 @@ public class CustomAppFrame extends JFrame {
 
         JFileChooser fileChooser = new JFileChooser();
 
-        openItem.addActionListener(new ActionListener() {
+        openItem.addActionListener(e -> System.out.println("OPEN"));
 
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("OPEN");
+        saveItem.addActionListener(e -> {
+            fileChooser.setSelectedFile(new File(DEFAULT_FILE));
+            int userOption = fileChooser.showSaveDialog(CustomAppFrame.this);
+
+            if (userOption == JFileChooser.APPROVE_OPTION) {
+                File selectedFile = fileChooser.getSelectedFile();
+                System.out.println(selectedFile);
+                gamePanel.save(selectedFile);
             }
-
-        });
-
-        saveItem.addActionListener(new ActionListener() {
-
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("SAVE");
-                int userOption = fileChooser.showSaveDialog(CustomAppFrame.this);
-
-                if (userOption == JFileChooser.APPROVE_OPTION) {
-
-                }
-            }
-
         });
 
         /*
