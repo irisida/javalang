@@ -72,6 +72,14 @@ Java programming language sample programs. Applies to Java 11+.
 #### Part 10
 - [Adding Load & Save capabilities to the Swing App Game of Life](/src/com/irisida/lang/part10)
     - [Chapter 26 - Add load & save](/src/com/irisida/lang/part10/chapter26)
+
+
+#### Part 11
+- [Generics](/src/com/irisida/lang/part11)
+    - [Chapter 27 - Introducing generics](/src/com/irisida/lang/part11/chapter27)
+
+
+
 ### Additional sections
 
 [Other exercises and challenges related to the course](/src/com/irisida/lang/exercises/readme.md)
