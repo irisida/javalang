@@ -1,4 +1,4 @@
-package com.irisida.lang.part11.chapter27.simplehierarchy.collections;
+package com.irisida.lang.part11.chapter27.withgenerics.collections;
 
 public class Wrapper {
     private Object object;

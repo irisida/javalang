@@ -1,4 +1,4 @@
-package com.irisida.lang.part11.chapter27.simplehierarchy;
+package com.irisida.lang.part11.chapter27.withgenerics;
 
 public class Creature {
     private String name;

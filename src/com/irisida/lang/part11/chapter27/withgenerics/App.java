@@ -1,6 +1,6 @@
-package com.irisida.lang.part11.chapter27.simplehierarchy;
+package com.irisida.lang.part11.chapter27.withgenerics;
 
-import com.irisida.lang.part11.chapter27.simplehierarchy.collections.Wrapper;
+import com.irisida.lang.part11.chapter27.withgenerics.collections.Wrapper;
 
 public class App {
     public static void main(String[] args) {
