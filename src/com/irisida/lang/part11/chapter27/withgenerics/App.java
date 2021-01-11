@@ -6,17 +6,15 @@ public class App {
     public static void main(String[] args) {
 
         /**
-         * The demo here using a Wrapper class which uses the ultimate parent in Java,
-         * Object. The limitations here are that Object will remove the notion of
-         * control because as we odd objects that fit within the normal polymorphism
-         * model that we have here with Creature, Mammal & Cat there is nothing to stop
-         * us adding to an Array of Wrapper something that is outside of this flavour of
-         * object.
-         *
-         * Hence the introduction of generics which we will look at in the next example.
+         * Note we have introduced the diamond bracket notation to add generics
+         * capabilities. In this case as we have set expectation that wrapper will deal
+         * with Cat classes if we create a Mammal/Creature with this same wrapper we
+         * would have compilation issues. The transitive nature means that id we create
+         * a Wrapper<Creature> we could pass in a Mammal or Cat, but it does not work in
+         * the other direction.
          */
 
-        Wrapper wrapper = new Wrapper();
+        Wrapper<Cat> wrapper = new Wrapper<>();
 
         Cat cat = new Cat("Mog");
 

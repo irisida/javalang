@@ -1,13 +1,13 @@
 package com.irisida.lang.part11.chapter27.withgenerics.collections;
 
-public class Wrapper {
-    private Object object;
+public class Wrapper<E> {
+    private E object;
 
-    public void Set(Object object) {
+    public void Set(E object) {
         this.object = object;
     }
 
-    public Object get() {
+    public E get() {
         return object;
     }
 }
